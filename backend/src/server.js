@@ -17,7 +17,7 @@ const app = express();
 // Middleware
 app.use(cors(
   {
-    origin: '*',
+    origin: 'https://e-commers-webapplication-2.onrender.com',
     credentials: true,
   }
 ));
